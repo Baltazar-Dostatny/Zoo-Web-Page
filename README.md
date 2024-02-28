@@ -1,4 +1,4 @@
-Faça o download do projeto e descompacte-o. Em seguida acessa a pasta descompactada com o seu editor de códigos de preferencia(no meu caso o vscode)
+Faça o download do projeto e descompacte-o. Em seguida acesse a pasta descompactada com o seu editor de códigos de preferencia(no meu caso o vscode)
 Após isso faça as instalações necessarias usando os seguintes comandos no terminal:
 npm install express@4.18.2
 npm install mongoose@8.0.0
