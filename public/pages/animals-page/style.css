@@ -1,0 +1,230 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: Futura-Bold, HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    list-style-type: none;
+}
+
+@font-face {
+    font-family: "eduTas";
+    src: url("../../fonts/EduTASBeginner-Medium.ttf") format("truetype");
+    font-style: normal;
+}
+
+body {
+    background: url(/html-pictures/background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #008371;
+    /*background-color: #ACE9FE;*/
+    min-height: 100vh;
+}
+
+header {
+    position: relative;
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-shadow: 3px 3px 0px #000000;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 20px 0 20px;
+}
+
+header h1 {
+    display: block;
+    font-size: 40px;
+}
+
+header ul {
+    display: block;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 0 0 0 15px;
+}
+
+.tipos-animais ul {
+    display: block;
+    color: #FFFFFF;
+    background-color: #000000;
+    text-align: center;
+    padding: 15px 0;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.tipos-animais ul li {
+    display: inline-block;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+}
+
+.back0-img {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 21%;
+}
+
+.back0-img img {
+    width: 100%;
+}
+
+main {
+    /*width: 100%;*/
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    margin: 40px auto;
+}
+
+.about {
+    position: relative;
+    width: 75%;
+    background-color: #b7e4c7;
+    border-radius: 30px;
+    margin: 80px auto;
+}
+
+#animals-ul {
+    position: relative;
+    width: 70%;
+    background-color: #b7e4c7;
+    padding: 10px 0;
+    margin: 0 auto;
+    border-radius: 22px;
+}
+
+#animals-ul li {
+    display: inline-block;
+    min-width: 170px;
+    width: 20%;
+    background-color: #000000;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 14px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+#animals-ul li p {
+    font-size: 2em;
+    padding: 0 0 10px 0;
+}
+
+#animals-ul li img {
+    width: 90%;
+    border-radius: 14px;
+}
+
+.back1-img {
+    position: fixed;
+    width: 30%;
+    bottom: 0px;
+    left: 0px;
+}
+
+.back2-img {
+    position: fixed;
+    width: 40%;
+    bottom: 0px;
+    right: 0px;
+}
+
+.back3-img {
+    position: fixed;
+    width: 75%;
+    bottom: -15px;
+    right: 0px;
+}
+
+footer {
+    position: relative;
+    bottom: -20px;
+    text-align: center;
+    width: 100%;
+    padding: 40px 0;
+    background-image: url(../../html-pictures/bg.jpg);
+}
+
+@media screen and (max-width: 800px) {
+    header {
+        display: block;
+        text-align: center;
+        width: 90%;
+        margin: 20px auto 0 auto;
+    }
+    
+    header h1 {
+        display: block;
+        font-size: 50px;
+    }
+    
+    header ul {
+        display: block;
+    }
+    
+    header ul li {
+        display: inline-block;
+        font-size: 0.9em;
+        margin: 0 0 0 15px;
+    }
+
+    main {
+        margin: 20px auto;
+    }
+
+    .about {
+      width: 90%;  
+    }
+
+    .arrow img {
+        top: 0px;
+    }
+
+    .about ul li {
+        text-align: center;
+    }
+    
+    .back0-img {
+        width: 29%;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    #animals-ul {
+        width: 90%;
+    }
+
+    #animals-ul li {
+        width: 30%;
+        min-width: 125px;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    #animals-ul li p {
+        font-size: 1.4em;
+        padding-bottom: 6px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #animals-ul li {
+        min-width: 50px;
+        width: 30%;
+        margin: 10px;
+    }
+
+    #animals-ul li p {
+        font-size: 0.9em;
+        padding-bottom: 6px;
+    }
+}
